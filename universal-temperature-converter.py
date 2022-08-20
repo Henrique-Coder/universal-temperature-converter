@@ -36,6 +36,9 @@ if option == '1':
     print(f'Degrees in Newton: {value_newton}')
     print(f'Degrees in Rømer: {value_romer}')
 
+    print()
+    exit = input('To exit the program, press enter or type something: ')
+
 
 if option == '2':
     system('cls'), print()
@@ -56,6 +59,9 @@ if option == '2':
     print(f'Degrees in Delisle: {value_delisle}')
     print(f'Degrees in Newton: {value_newton}')
     print(f'Degrees in Rømer: {value_romer}')
+
+    print()
+    exit = input('To exit the program, press enter or type something: ')
 
 
 if option == '3':
@@ -78,6 +84,10 @@ if option == '3':
     print(f'Degrees in Newton: {value_newton}')
     print(f'Degrees in Rømer: {value_romer}')
 
+    print()
+    exit = input('To exit the program, press enter or type something: ')
+
+
 if option == '4':
     system('cls'), print()
     input_reaumur = int(input('Degrees in Réaumur: '))
@@ -97,6 +107,9 @@ if option == '4':
     print(f'Degrees in Delisle: {value_delisle}')
     print(f'Degrees in Newton: {value_newton}')
     print(f'Degrees in Rømer: {value_romer}')
+
+    print()
+    exit = input('To exit the program, press enter or type something: ')
 
 
 if option == '5':
@@ -119,6 +132,9 @@ if option == '5':
     print(f'Degrees in Newton: {value_newton}')
     print(f'Degrees in Rømer: {value_romer}')
 
+    print()
+    exit = input('To exit the program, press enter or type something: ')
+
 
 if option == '6':
     system('cls'), print()
@@ -139,6 +155,9 @@ if option == '6':
     print(f'Degrees in Rankine: {value_rankine}')
     print(f'Degrees in Newton: {value_newton}')
     print(f'Degrees in Rømer: {value_romer}')
+
+    print()
+    exit = input('To exit the program, press enter or type something: ')
 
 
 if option == '7':
@@ -161,6 +180,9 @@ if option == '7':
     print(f'Degrees in Delisle: {value_delisle}')
     print(f'Degrees in Rømer: {value_romer}')
 
+    print()
+    exit = input('To exit the program, press enter or type something: ')
+
 
 if option == '8':
     system('cls'), print()
@@ -182,6 +204,8 @@ if option == '8':
     print(f'Degrees in Delisle: {value_delisle}')
     print(f'Degrees in Newton: {value_newton}')
 
+    print()
+    exit = input('To exit the program, press enter or type something: ')
 
 else:
-    quit()
+    exit()
