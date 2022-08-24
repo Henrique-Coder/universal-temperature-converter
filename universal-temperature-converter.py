@@ -17,7 +17,8 @@ print()
 option = input('# Option: ')
 
 if option == '1':
-    system('cls'), print()
+    system('cls')
+    print()
     input_celsius = int(input('Degrees in Celsius: '))
 
     value_fahrenheit = input_celsius * 1.8 + 32
@@ -41,7 +42,8 @@ if option == '1':
 
 
 if option == '2':
-    system('cls'), print()
+    system('cls')
+    print()
     input_fahrenheit = int(input('Degrees in Fahrenheit: '))
 
     value_celsius = (input_fahrenheit - 32) * (5.0/9.0)
@@ -65,7 +67,8 @@ if option == '2':
 
 
 if option == '3':
-    system('cls'), print()
+    system('cls')
+    print()
     input_kelvin = int(input('Degrees in Kelvin: '))
 
     value_celsius = input_kelvin - 273.15
@@ -89,7 +92,8 @@ if option == '3':
 
 
 if option == '4':
-    system('cls'), print()
+    system('cls')
+    print()
     input_reaumur = int(input('Degrees in Réaumur: '))
 
     value_celsius = input_reaumur * 1.25
@@ -113,7 +117,8 @@ if option == '4':
 
 
 if option == '5':
-    system('cls'), print()
+    system('cls')
+    print()
     input_rankine = int(input('Degrees in Rankine: '))
 
     value_celsius = (input_rankine - 491.67) * (5.0/9.0)
@@ -137,7 +142,8 @@ if option == '5':
 
 
 if option == '6':
-    system('cls'), print()
+    system('cls')
+    print()
     input_delisle = int(input('Degrees in Delisle: '))
 
     value_celsius = (100 - input_delisle) * 0.2 + 32
@@ -161,7 +167,8 @@ if option == '6':
 
 
 if option == '7':
-    system('cls'), print()
+    system('cls')
+    print()
     input_newton = int(input('Degrees in Newton: '))
 
     value_celsius = input_newton * 0.33
@@ -185,7 +192,8 @@ if option == '7':
 
 
 if option == '8':
-    system('cls'), print()
+    system('cls')
+    print()
     input_romer = int(input('Degrees in Rømer: '))
 
     value_celsius = input_romer * 1.25
@@ -206,6 +214,3 @@ if option == '8':
 
     print()
     exit = input('To exit the program, press enter or type something: ')
-
-else:
-    exit()
